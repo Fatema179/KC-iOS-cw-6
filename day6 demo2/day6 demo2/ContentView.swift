@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  cw5
+//  day6 demo2
 //
-//  Created by ... on 23/06/2022.
+//  Created by Zeinab H Eldeeb on 16/08/2022.
 //
 
 import SwiftUI
@@ -12,7 +12,8 @@ struct ContentView: View {
     var body: some View {
         VStack{
             HStack{
-                Text("أستغفر الله العظيم").font(.title)
+                Text("استغفر الله العظيم")
+                    .font(.title)
                 Spacer()
                 Text("\(counter[0])")
                     .font(.largeTitle)
@@ -27,7 +28,8 @@ struct ContentView: View {
             }.padding()
             HStack{
                 Spacer()
-                Text("الحمدلله").font(.title)
+                Text("الحمدلله")
+                    .font(.title)
                 Spacer()
                 Text("\(counter[1])")
                     .font(.largeTitle)
@@ -41,7 +43,8 @@ struct ContentView: View {
                     }
             }.padding()
             HStack{
-                Text("سبحان الله وبحمده").font(.title)
+                Text("سبحان الله وبحمده")
+                    .font(.title)
                 Spacer()
                 Text("\(counter[2])")
                     .font(.largeTitle)
@@ -57,9 +60,6 @@ struct ContentView: View {
         }
     }
 }
-
-
-// يجب عمل extract
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

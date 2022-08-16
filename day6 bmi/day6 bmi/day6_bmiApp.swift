@@ -1,14 +1,14 @@
 //
-//  cw5App.swift
-//  cw5
+//  day6_bmiApp.swift
+//  day6 bmi
 //
-//  Created by ... on 23/06/2022.
+//  Created by Zeinab H Eldeeb on 14/08/2022.
 //
 
 import SwiftUI
 
 @main
-struct cw5App: App {
+struct day6_bmiApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
